@@ -1,139 +1,445 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<head>
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <meta charset="utf-9">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 
-    <title>Karmi Phuc&#39;s Resume by karmiphuc</title>
-  </head>
+    <title>Karmi Phúc</title>
 
-  <body>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css" >
 
-    <header>
-      <div class="container">
-        <h1>Karmi Phuc&#39;s Resume</h1>
-        <h2>My JSON resume</h2>
+    <style>
+            body {
+    background: #fff;
+    font: 12px 'Roboto Slab', sans-serif;;
+    line-height: 1.4;
+    margin: 60px 0;
+    margin-bottom: 100px;
+    margin: auto;
+}
 
-        <section id="downloads">
-          <a href="https://github.com/karmiphuc/json-resume/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/karmiphuc/json-resume/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/karmiphuc/json-resume" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+h1 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    line-height: .5em;
+}
 
-    <div class="container">
-      <section id="main_content">
-        <h1>
-<a id="karmi-phúc" class="anchor" href="#karmi-ph%C3%BAc" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Karmi Phúc</h1>
+h2 {
+    text-transform: uppercase;
+    line-height: .5em;
+}
 
-<p><img src="https://www.gravatar.com/avatar/995f896dd5839bb9b26bdeb10eddb895.jpg?s=200" alt="Profile Picture"></p>
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
 
-<h2>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h2>
+em {
+    color: #999;
+}
+p {
+    line-height: 1.4;
+}
+ul {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+section {
+    margin-bottom: 2em;
+}
+blockquote {
+    margin: 0;
+    margin-bottom: 1em;
+}
+.item {
+    margin-bottom: 1em;
+}
+#resume {
+    margin: 0 auto;
+    width: 100%;
+}
+.resume-wrapper {
+    margin: 0 auto;
+    max-width: 935px;
+}
+section {
+    padding: 0 10px;
+}
+.side {
+    border-right: 1px solid #ccc;
+}
+#basics {
+    margin-bottom: -10px;
+}
+#basics h3 {
+    margin-top: 0.70em;
+    font-weight: bold;
+}
+#basics .contact strong,
+#location strong {
+    clear: both;
+    float: left;
+    line-height: 1.3;
+    width: 120px;
+}
+#profiles,
+#skills {
+    overflow: hidden;
+}
 
-<p>Email: <a href="mailto:karmiphuc@gmail.com">karmiphuc@gmail.com</a><br>
-Website: <a href="http://karmiphuc.com">http://karmiphuc.com</a><br>
-Phone: (84) 933 04 08 35<br>
-Address: Ho Chi Minh<br>
-City: Ho Chi Minh  </p>
+.header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
 
-<p>Country: Vietnam  </p>
+.header .fullname {
+    padding: 0 20px;
+    border: 3px solid #fff;
+    font-family: "Open Sans",sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+}
 
-<h2>
-<a id="profiles" class="anchor" href="#profiles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Profiles</h2>
+.header .label {
+    font-family: Roboto Slab,sans-serif;
+    text-transform: uppercase;
+}
 
-<p><a href="https://www.facebook.com/phucnn">Facebook - phucnn</a><br>
-<a href="https://twitter.com/karmiphuc">Twitter - karmiphuc</a><br>
-<a href="https://github.com/karmiphuc">GitHub - karmiphuc</a>  </p>
+.header .contact {
+    font-family: "Open Sans",sans-serif;
+}
 
-<h2>
-<a id="summary" class="anchor" href="#summary" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Summary</h2>
+.content, .summary {
+    margin: 20px 20px
+}
 
-<p>Full-stack Developer. Product Builder. Life-hacker. Google Enthusiast.</p>
+.position, .name, .institution {
+    font-weight: bold;
+}
 
-<h2>
-<a id="work" class="anchor" href="#work" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Work</h2>
+.position:after {
+    content: ' at ';
+    font-weight: normal;
+}
 
-<h3>
-<a id="it-manager-ws-group" class="anchor" href="#it-manager-ws-group" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IT Manager, <a href="http://wsgroup-asia.com">W&amp;S Group</a>
-</h3>
+.keywords span:after {
+    content: ","
+}
 
-<h5>
-<a id="2015-04-01---2016-04-01" class="anchor" href="#2015-04-01---2016-04-01" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-04-01 - 2016-04-01</h5>
+.keywords span:last-child:after {
+    content: '';
+}
 
-<ul>
-<li>Lead 2 teams of 13 developers on Off-shore Coding projects and internal system development.</li>
-<li>Coordinate with 3 internal departments and 3 foreign offices, to ensure system functionality and availability across Japan - Vietnam - Indonesia - Thailand.</li>
-<li>Manage and sustain an on-premises server cluster (including Mail servers) for 8 services, 12 websites, nearly 500.000 users in total.</li>
-</ul>
+section .website, section .date{
+    text-align: right;
+}
 
-<p>100% Japanese capital company. Utilizing dedicated market research panels in Vietnam, Thailand, and Indonesia, together with Research expertise in South East Asia, to provide the best service to support clients through challenges of research planning, fieldwork, analysis, translation, reporting.</p>
+.website {
+    font-style: italic;
+    color: #999;
+}
 
-<h3>
-<a id="full-stack-developer-ws-group" class="anchor" href="#full-stack-developer-ws-group" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Full-stack Developer, W&amp;S Group</h3>
+.date {
+    text-transform: uppercase;
+    color: #666;
+}
 
-<h5>
-<a id="2012-08-27---2015-04-01" class="anchor" href="#2012-08-27---2015-04-01" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2012-08-27 - 2015-04-01</h5>
+#interests ul {
+    padding: 0;
+}
 
-<ul>
-<li>Work independently or as a team in utilizing PHP Frameworks to create and maintain company products: Zend 1, Zend 2, PhalconPHP.</li>
-<li>Own the product, built with love: Build products from the ground to visualize company goals towards the mutual vision.</li>
-<li>Empower 3 other departments with tools and workflows to help them get things done.</li>
-<li>Best achievement is to optimize other departments' workflow: dramatically reducing manual efforts in Research Data Cleaning, from Days down to hours and minutes.</li>
-</ul>
+#interests ul li {
+    list-style-type: none;
+}
+    </style>
 
-<h2>
-<a id="education" class="anchor" href="#education" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Education</h2>
+</head>
+<body>
+<div id="resume">
 
-<h3>
-<a id="university-of-information-technology---engineer-in-information-system" class="anchor" href="#university-of-information-technology---engineer-in-information-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>University of Information Technology - Engineer in Information System</h3>
+        <div class="header">
+            <div class="fullname">
+                <h1>Karmi Phúc</h1>
+            </div>
+            <h2 class="label">Developer. Product Builder.</h2>
+            <div class="contact">
+                    <div class="website">
+                        http://karmiphuc.com
+                    </div>
+                    <div class="contact-details">
+                            <span class="email">
+                                <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="e48f8596898d948c9187a48389858d88ca878b89">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+                            </span>
+                            <span class="phone">
+                                — (84) 933 04 08 35
+                            </span>
+                    </div>
+            </div>
+        </div>
 
-<h5>
-<a id="2007-05-20---2012-08-06" class="anchor" href="#2007-05-20---2012-08-06" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2007-05-20 - 2012-08-06</h5>
+    <div class="resume-wrapper">
 
-<p>GPA: 3.38</p>
+            <div class="row">
+                <div class="col-xs-12">
+                    <section id="basics">
+                            <div class="summary">
+                                <p>Full-stack Developer. Product Builder. Life-hacker. Google Enthusiast.</p>
+                            </div>
+                    </section>
+                </div>
+            </div>
 
-<h2>
-<a id="skills" class="anchor" href="#skills" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Skills</h2>
+        <div class="row content">
+            <div class="col-xs-3 side">
+                    <section id="skills">
+                        <h2>Skills</h2>
+                            <div class="item">
+                                    <div class="name">
+                                        Web Development
+                                    </div>
+                                    <div class="level">
+                                        <em>Advance</em>
+                                    </div>
+                                    <div class="keywords">
+                                            <span>PHP</span>
+                                            <span>Javascript</span>
+                                    </div>
+                            </div>
+                            <div class="item">
+                                    <div class="name">
+                                        Digital Marketing
+                                    </div>
+                                    <div class="level">
+                                        <em>Intermediate</em>
+                                    </div>
+                                    <div class="keywords">
+                                            <span>SEO</span>
+                                            <span>Social Media</span>
+                                    </div>
+                            </div>
+                            <div class="item">
+                                    <div class="name">
+                                        Leadership
+                                    </div>
+                                    <div class="level">
+                                        <em>Advance</em>
+                                    </div>
+                                    <div class="keywords">
+                                            <span>Team-building</span>
+                                            <span>Mentoring</span>
+                                            <span>Coaching</span>
+                                    </div>
+                            </div>
+                            <div class="item">
+                                    <div class="name">
+                                        Product Development
+                                    </div>
+                                    <div class="level">
+                                        <em>Intermediate</em>
+                                    </div>
+                                    <div class="keywords">
+                                            <span>MVP</span>
+                                            <span>UX/UI</span>
+                                            <span>Story-telling</span>
+                                    </div>
+                            </div>
+                    </section>
+                    <section id="languages">
+                        <h2>Languages</h2>
+                            <div class="item">
+                                    <div class="language">
+                                        English
+                                    </div>
+                                    <div class="fluency">
+                                        <em>Business</em>
+                                    </div>
+                            </div>
+                            <div class="item">
+                                    <div class="language">
+                                        Japanese
+                                    </div>
+                                    <div class="fluency">
+                                        <em>Beginner</em>
+                                    </div>
+                            </div>
+                    </section>
+                    <section id="interests">
+                        <h2>Interests</h2>
+                            <div class="item">
+                                    <div class="name">
+                                        Sports
+                                    </div>
+                                    <ul class="keywords">
+                                            <li>Soccer</li>
+                                            <li>Rock-climbing</li>
+                                            <li>Calisthenics</li>
+                                    </ul>
+                            </div>
+                            <div class="item">
+                                    <div class="name">
+                                        Intellectual
+                                    </div>
+                                    <ul class="keywords">
+                                            <li>Blogging</li>
+                                            <li>Doodles</li>
+                                            <li>Life stories</li>
+                                    </ul>
+                            </div>
+                    </section>
+            </div>
+            <div class="col-xs-9">
+                    <section id="work">
+                        <h2>Work Experience</h2>
+                            <div class="item">
 
-<ul>
-<li>Advance in Web Development (PHP, Javascript)</li>
-<li>Intermediate in Digital Marketing (SEO, Social Media)</li>
-<li>Advance in Leadership (Team-building, Mentoring, Coaching)</li>
-<li>Intermediate in Product Development (MVP, UX/UI, Story-telling)</li>
-</ul>
+                                <div class="row">
+                                    <div class="description col-xs-8">
+                                            <span class="position">
+                                                IT Manager
+                                            </span>
+                                            <span class="name">
+                                                W&amp;S Group
+                                            </span>
+                                    </div>
+                                    <div class="description col-xs-4">
+                                            <div class="date">
+                                                    <span class="startDate">
+                                                        Apr 2015
+                                                    </span>
+                                                    <span class="endDate">
+					                            — Apr 2016
+				                            </span>
+                                            </div>
 
-<h2>
-<a id="languages" class="anchor" href="#languages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Languages</h2>
+                                            <div class="website">
+                                                <a href="http://http://wsgroup-asia.com" target="_blank">http://wsgroup-asia.com</a>
+                                            </div>
+                                    </div>
+                                </div>
 
-<ul>
-<li>Business in English</li>
-<li>Beginner in Japanese</li>
-</ul>
+                                <div class="row">
+                                    <div class="infos col-xs-12">
+                                        <div class="description">
+                                                <div class="summary">
+                                                    <p>100% Japanese capital company. Utilizing dedicated market research panels in Vietnam, Thailand, and Indonesia, together with Research expertise in South East Asia, to provide the best service to support clients through challenges of research planning, fieldwork, analysis, translation, reporting.</p>
+                                                </div>
+                                                <ul class="highlights">
+                                                        <li>Lead 2 teams of 13 developers on Off-shore Coding projects and internal system development.</li>
+                                                        <li>Coordinate with 3 internal departments and 3 foreign offices, to ensure system functionality and availability across Japan - Vietnam - Indonesia - Thailand.</li>
+                                                        <li>Manage and sustain an on-premises server cluster (including Mail servers) for 8 services, 12 websites, nearly 500.000 users in total.</li>
+                                                </ul>
+                                        </div>
+                                    </div>
+                                </div>
 
-<h2>
-<a id="interests" class="anchor" href="#interests" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interests</h2>
+                            </div>
+                            <div class="item">
 
-<ul>
-<li>Sports (Soccer, Rock-climbing, Calisthenics)</li>
-<li>Intellectual (Blogging, Doodles, Life stories)</li>
-</ul>
+                                <div class="row">
+                                    <div class="description col-xs-8">
+                                            <span class="position">
+                                                Full-stack Developer
+                                            </span>
+                                            <span class="name">
+                                                W&amp;S Group
+                                            </span>
+                                    </div>
+                                    <div class="description col-xs-4">
+                                            <div class="date">
+                                                    <span class="startDate">
+                                                        Aug 2012
+                                                    </span>
+                                                    <span class="endDate">
+					                            — Apr 2015
+				                            </span>
+                                            </div>
 
-<h2>
-<a id="references" class="anchor" href="#references" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>References</h2>
+                                    </div>
+                                </div>
 
-<blockquote>
-<p>General Manager, W&amp;S Group -- Toshiya Momota
-CTO, W&amp;S Group -- Wataru Nabeyama</p>
-</blockquote>
-      </section>
+                                <div class="row">
+                                    <div class="infos col-xs-12">
+                                        <div class="description">
+                                                <ul class="highlights">
+                                                        <li>Work independently or as a team in utilizing PHP Frameworks to create and maintain company products: Zend 1, Zend 2, PhalconPHP.</li>
+                                                        <li>Own the product, built with love: Build products from the ground to visualize company goals towards the mutual vision.</li>
+                                                        <li>Empower 3 other departments with tools and workflows to help them get things done.</li>
+                                                        <li>Best achievement is to optimize other departments&#x27; workflow: dramatically reducing manual efforts in Research Data Cleaning, from Days down to hours and minutes.</li>
+                                                </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                    </section>
+
+                    <section id="education">
+                        <h2>Education</h2>
+                            <div class="item">
+
+                                <div class="row">
+                                    <div class="col-xs-8">
+                                            <div class="institution">
+                                                University of Information Technology
+                                            </div>
+                                            <div class="area">
+                                                Information System
+                                            </div>
+                                            <div class="studyType">
+                                                Engineer
+                                            </div>
+                                            <div class="gpa">
+                                                GPA: 3.38
+                                            </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <div class="date">
+                                                <span class="startDate">
+                                                    May 2007
+                                                </span>
+                                                <span class="endDate">
+                                                — Aug 2012
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                    </section>
+
+
+
+
+                    <section id="references">
+                        <h2>References</h2>
+                            <div class="item">
+                                    <blockquote class="reference">
+                                        General Manager, W&amp;S Group
+                                    </blockquote>
+                                    <div class="name">
+                                        — Toshiya Momota
+                                    </div>
+                            </div>
+                            <div class="item">
+                                    <blockquote class="reference">
+                                        CTO, W&amp;S Group
+                                    </blockquote>
+                                    <div class="name">
+                                        — Wataru Nabeyama
+                                    </div>
+                            </div>
+                    </section>
+
+            </div>
+        </div>
     </div>
+</div>
 
-    
-  </body>
+</body>
 </html>
