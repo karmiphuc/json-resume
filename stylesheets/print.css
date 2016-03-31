@@ -1,0 +1,22 @@
+@page {
+size: A4;
+}
+@page :left {
+margin-left: 0;
+}
+
+@page :right {
+margin-left: 0;
+}
+.website{
+display:none
+}
+em {
+color: #333;
+}
+.content, .summary {
+margin: 14px 14px;
+}
+.reference {
+margin-bottom: 0.5em;
+}
