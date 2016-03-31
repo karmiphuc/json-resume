@@ -1,0 +1,152 @@
+{
+  "basics": {
+    "name": "Karmi Phúc",
+    "label": "Developer. Product Builder.",
+    "picture": "https://www.gravatar.com/avatar/995f896dd5839bb9b26bdeb10eddb895.jpg?s=200",
+    "email": "karmiphuc@gmail.com",
+    "phone": "(84) 933 04 08 35",
+    "website": "http://karmiphuc.com",
+    "summary": "Full-stack Developer. Product Builder. Life-hacker. Google Enthusiast.",
+    "location": {
+      "address": "Ho Chi Minh",
+      "postalCode": "",
+      "city": "Ho Chi Minh",
+      "countryCode": "Vietnam",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Facebook",
+        "username": "phucnn",
+        "url": "https://www.facebook.com/phucnn"
+      },
+      {
+        "network": "Twitter",
+        "username": "karmiphuc",
+        "url": "https://twitter.com/karmiphuc"
+      },
+      {
+        "network": "GitHub",
+        "username": "karmiphuc",
+        "url": "https://github.com/karmiphuc"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "W&S Group",
+      "position": "IT Manager",
+      "website": "http://wsgroup-asia.com",
+      "startDate": "2015-04-01",
+      "endDate": "2016-04-01",
+      "summary": "100% Japanese capital company. Utilizing dedicated market research panels in Vietnam, Thailand, and Indonesia, together with Research expertise in South East Asia, to provide the best service to support clients through challenges of research planning, fieldwork, analysis, translation, reporting.",
+      "highlights": [
+        "Lead 2 teams of 13 developers on Off-shore Coding projects and internal system development.",
+        "Coordinate with 3 internal departments and 3 foreign offices, to ensure system functionality and availability across Japan - Vietnam - Indonesia - Thailand.",
+        "Manage and sustain an on-premises server cluster (including Mail servers) for 8 services, 12 websites, nearly 500.000 users in total."
+      ]
+    },
+    {
+      "company": "W&S Group",
+      "position": "Full-stack Developer",
+      "website": "",
+      "startDate": "2012-08-27",
+      "endDate": "2015-04-01",
+      "summary": "",
+      "highlights": [
+        "Work independently or as a team in utilizing PHP Frameworks to create and maintain company products: Zend 1, Zend 2, PhalconPHP.",
+        "Own the product, built with love: Build products from the ground to visualize company goals towards the mutual vision.",
+        "Empower 3 other departments with tools and workflows to help them get things done.",
+        "Best achievement is to optimize other departments' workflow: dramatically reducing manual efforts in Research Data Cleaning, from Days down to hours and minutes."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Information Technology",
+      "area": "Information System",
+      "studyType": "Engineer",
+      "startDate": "2007-05-20",
+      "endDate": "2012-08-06",
+      "gpa": "3.38",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Advance",
+      "keywords": [
+        "PHP",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Digital Marketing",
+      "level": "Intermediate",
+      "keywords": [
+        "SEO",
+        "Social Media"
+      ]
+    },
+    {
+      "name": "Leadership",
+      "level": "Advance",
+      "keywords": [
+        "Team-building",
+        "Mentoring",
+        "Coaching"
+      ]
+    },
+    {
+      "name": "Product Development",
+      "level": "Intermediate",
+      "keywords": [
+        "MVP",
+        "UX/UI",
+        "Story-telling"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Business"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Soccer",
+        "Rock-climbing",
+        "Calisthenics"
+      ]
+    },
+    {
+      "name": "Intellectual",
+      "keywords": [
+        "Blogging",
+        "Doodles",
+        "Life stories"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Toshiya Momota",
+      "reference": "General Manager, W&S Group"
+    },
+    {
+      "name": "Wataru Nabeyama",
+      "reference": "CTO, W&S Group"
+    }
+  ]
+}
