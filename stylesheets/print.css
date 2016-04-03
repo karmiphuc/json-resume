@@ -20,3 +20,6 @@ margin: 14px 14px;
 .reference {
 margin-bottom: 0.5em;
 }
+.reference.name {
+  display: inline !important;
+}
